@@ -1,5 +1,5 @@
 {
-  "name": "wxml-loader",
+  "name": "miniprogram-xml-loader",
   "description": "wxml loader for webpack",
   "version": "0.3.0",
   "main": "lib/index",
@@ -19,7 +19,8 @@
     "preversion": "yarn test && yarn build"
   },
   "author": "cap32",
-  "repository": "cap32/wxml-loader",
+  "repository": "https://github.com/wenfangcao/wxml-loader",
+  "bugs": "https://github.com/qrac/vuepress-theme-musubii/issues",
   "keywords": [
     "wxml",
     "loader",

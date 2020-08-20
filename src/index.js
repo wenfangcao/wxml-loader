@@ -9,7 +9,7 @@ const ROOT_TAG_START = `<${ROOT_TAG_NAME}>`;
 const ROOT_TAG_END = `</${ROOT_TAG_NAME}>`;
 const ROOT_TAG_LENGTH = ROOT_TAG_START.length;
 
-const isSrc = (name) => name === 'src';
+const isSrc = (name) => name === 'src' || name === 'from' ;
 
 const isDynamicSrc = (src) => /\{\{/.test(src);
 
